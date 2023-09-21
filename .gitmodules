@@ -22,3 +22,12 @@
 [submodule "yara-ci/vt-yara-ci"]
 	path = yara-ci/vt-yara-ci
 	url = https://github.com/VirusTotal/test-yara-ci
+[submodule "yara-rules/rules"]
+	path = yara-rules/rules
+	url = https://github.com/Yara-Rules/rules
+[submodule "yara-endpoint"]
+	path = yara-endpoint
+	url = https://github.com/Yara-Rules/yara-endpoint
+[submodule "Yara-Radare2"]
+	path = Yara-Radare2
+	url = https://github.com/wolfvan/YaraRET
