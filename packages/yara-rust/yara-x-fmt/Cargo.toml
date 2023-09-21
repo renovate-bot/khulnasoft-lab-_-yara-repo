@@ -1,0 +1,29 @@
+[package]
+name = "yara-x-fmt"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+description.workspace = true
+readme.workspace = true
+license.workspace = true
+homepage.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "yarafmt"
+path = "src/bin/main.rs"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anyhow = { workspace = true }
+bitmask =  { workspace = true }
+clap = { workspace = true, features=["cargo"] }
+enable-ansi-support = { workspace = true }
+lazy_static = { workspace = true }
+thiserror = { workspace = true }
+yara-x-parser = { workspace = true }
+
+[dev-dependencies]
+pretty_assertions = { workspace = true }
