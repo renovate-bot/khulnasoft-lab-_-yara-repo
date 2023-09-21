@@ -1,0 +1,24 @@
+[submodule "yara-pattern"]
+	path = yara-pattern
+	url = https://github.com/virustotal/yara
+[submodule "yara-python"]
+	path = yara-python
+	url = https://github.com/VirusTotal/yara-python
+[submodule "yara-rust"]
+	path = yara-rust
+	url = https://github.com/VirusTotal/yara-x
+[submodule "yara-parser"]
+	path = yara-parser
+	url = https://github.com/VirusTotal/gyp
+[submodule "go-yara"]
+	path = go-yara
+	url = https://github.com/hillu/go-yara
+[submodule "yara-modules"]
+	path = yara-modules
+	url = https://github.com/VirusTotal/protoc-gen-yara
+[submodule "yara-rules/vt-yara-rules"]
+	path = yara-rules/vt-yara-rules
+	url = https://github.com/VirusTotal/vt-public-crowdsourced-yara
+[submodule "yara-ci/vt-yara-ci"]
+	path = yara-ci/vt-yara-ci
+	url = https://github.com/VirusTotal/test-yara-ci
