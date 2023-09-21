@@ -31,3 +31,6 @@
 [submodule "Yara-Radare2"]
 	path = Yara-Radare2
 	url = https://github.com/wolfvan/YaraRET
+[submodule "yara-ruleset-bot/yara-telegram-bot"]
+	path = yara-ruleset-bot/yara-telegram-bot
+	url = https://github.com/Yara-Rules/yara-tester-bot
