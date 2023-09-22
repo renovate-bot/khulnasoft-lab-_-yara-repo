@@ -1,3 +1,0 @@
-[submodule "r2yara"]
-	path = r2yara
-	url = https://github.com/Yara-Rules/r2yara
